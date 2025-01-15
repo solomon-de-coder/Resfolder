@@ -1,3 +1,4 @@
+#RESTAURANT MANAGEMENT PROJECT
 menu = [
     {"item": "Burger", "price": 5.0, "stock": 20},
     {"item": "Pizza", "price": 8.0, "stock": 10},
@@ -35,7 +36,7 @@ def remove_item():
             print(name + " removed from menu.")
             return
     print("Item not found.")
-
+    
 def take_order():
     order = {}
     print("\n--- Place Order ---")
