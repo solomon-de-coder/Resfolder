@@ -1,0 +1,61 @@
+
+
+Case Conversion
+1. lower(): Converts all characters in the string to lowercase.
+2. upper(): Converts all characters in the string to uppercase.
+3. title(): Capitalizes the first letter of each word.
+4. capitalize(): Capitalizes the first character of the string and makes the rest lowercase.
+5. swapcase(): Swaps uppercase characters to lowercase and vice versa.
+6. casefold(): Converts the string to lowercase, more aggressively than lower() (useful for case-insensitive comparisons).
+
+Check Content
+1. isalpha(): Checks if all characters are alphabetic.
+2. isdigit(): Checks if all characters are digits.
+3. isalnum(): Checks if all characters are alphanumeric.
+4. isspace(): Checks if all characters are whitespace.
+5. isupper(): Checks if all characters are uppercase.
+6. islower(): Checks if all characters are lowercase.
+7. istitle(): Checks if the string is in title case (first letter of each word capitalized).
+
+Search and Replace
+1. find(substring): Returns the index of the first occurrence of a substring, or -1 if not found.
+2. index(substring): Like find(), but raises a ValueError if the substring is not found.
+3. rfind(substring): Finds the last occurrence of the substring.
+4. replace(old, new): Replaces occurrences of old with new.
+5. count(substring): Counts occurrences of a substring in the string.
+
+Whitespace and Trimming
+1. strip(): Removes leading and trailing whitespace.
+2. lstrip(): Removes leading whitespace.
+3. rstrip(): Removes trailing whitespace.
+
+Splitting and Joining
+1. split(separator): Splits the string into a list of substrings based on the separator.
+2. rsplit(separator): Splits the string from the right based on the separator.
+3. partition(separator): Splits the string into a tuple of three parts: before, separator, after.
+4. rpartition(separator): Splits the string into a tuple from the right.
+5. join(iterable): Joins elements of an iterable with the string as a separator.
+
+Other Utility Methods
+1. startswith(prefix): Checks if the string starts with the specified prefix.
+2. endswith(suffix): Checks if the string ends with the specified suffix.
+3. len(string): (Function, not a method) Returns the length of the string.
+4. in: (Operator) Checks if a substring exists in the string.
+5. format(): Formats the string using placeholders like {}.
+6. zfill(width): Pads the string with zeros on the left to reach a specified width.
+7. center(width): Centers the string within the specified width.
+8. ljust(width): Left-aligns the string within the specified width.
+9. rjust(width): Right-aligns the string within the specified width.
+
+list Methods
+1. append(item): Adds an item to the end of the list.
+2. extend(iterable): Extends the list by appending elements from another iterable.
+3. insert(index, item): Inserts an item at the specified index.
+4. remove(item): Removes the first occurrence of an item.
+5. pop(index): Removes and returns the item at the specified index (default: last item).
+6. clear(): Removes all items from the list.
+7. index(item): Returns the index of the first occurrence of an item.
+8. count(item): Counts occurrences of an item in the list.
+9. reverse(): Reverses the list in place.
+10. sort(): Sorts the list in ascending order (or based on a key function).
+11. copy(): Returns a shallow copy of the list.
