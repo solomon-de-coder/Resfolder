@@ -1,3 +1,6 @@
+
+#RESTAURANT MANAGEMENT PROJECT
+
 mn = [
     {"itm": "Burger", "prc": 5.0, "stk": 20},
     {"itm": "Pizza", "prc": 8.0, "stk": 10},
