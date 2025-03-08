@@ -1,6 +1,6 @@
 
 #RESTAURANT MANAGEMENT PROJECT
-
+# FIRST TIME PROJECT RUNNING ON DUAL CORE AND 4GIG RAM
 mn = [
     {"itm": "Burger", "prc": 5.0, "stk": 20},
     {"itm": "Pizza", "prc": 8.0, "stk": 10},
